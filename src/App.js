@@ -10,15 +10,7 @@ import Contact from './Component/Contact'
 import './App.css'
 function App(){
   
-  const [offset, setOffset] = useState(0);
-  const [about, setAbout] =useState(false);
-  useEffect(() => {
-    window.onscroll = () => {
-      setOffset(window.pageYOffset)      
-    }
-  }, []);
 
-  console.log(offset); 
     return (
       <div className="body">
         {/* Body Content */}

@@ -27,6 +27,8 @@ function Navbar() {
         }
     };
 
+    console.log(window.pageYOffset)
+    
     useEffect(() => {
         scroll()
     }, []);

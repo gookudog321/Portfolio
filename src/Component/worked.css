@@ -53,4 +53,7 @@
     .inner{
         grid-template-columns: 1fr;
     }
+    .inner li{
+        font-size: 14px;
+    }
     }

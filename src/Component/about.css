@@ -64,7 +64,7 @@
 }
 .about-me-skill{
     display: grid;
-    grid-template-columns: 0.3fr 0.5fr;
+    grid-template-columns: 0.4fr 0.5fr;
     align-items: flex-end;
     padding-inline-start: 0px;
     font-family: var(--font-mono);
@@ -86,5 +86,8 @@ ul.about-me-skill  li ion-icon{
     }
     .about-me div:nth-child(1) {
         margin-right: 0;
+    }
+    .about-me-skill{
+        grid-template-columns: repeat(2,1fr);
     }
 }

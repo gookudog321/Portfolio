@@ -87,6 +87,7 @@ ion-icon:hover{
 }
 ul{
   list-style: none;
+  padding-inline-start: 10px;
 }
 body{
   background-color: var(--navy);
