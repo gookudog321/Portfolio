@@ -47,7 +47,7 @@ function Portfolio(){
       },
       {
         sys:{
-            id: "3"
+            id: "3" 
         },
         fields:{
             id: "3",

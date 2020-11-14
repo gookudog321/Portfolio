@@ -136,4 +136,9 @@ nav div:nth-child(2) {
 header {
     padding:  0 0px;
 }
-}
+nav ul li:nth-child(5){
+    margin-bottom: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+}   

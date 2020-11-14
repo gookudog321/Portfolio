@@ -48,3 +48,9 @@
 .active-no{
     color: var(--slate);
 }
+
+@media screen and (max-width: 720px) {
+    .inner{
+        grid-template-columns: 1fr;
+    }
+    }

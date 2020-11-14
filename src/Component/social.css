@@ -56,3 +56,12 @@
 .animate__delay-040s{
     animation-duration: 4s;
 }
+
+@media screen and (max-width: 720px) {
+.social-m{
+    display: none;
+}
+.social-g{
+    display: none;
+}
+}

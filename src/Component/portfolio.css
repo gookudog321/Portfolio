@@ -67,3 +67,9 @@
     color: var(--color-head);
     font-size: 14px;
   }
+
+  @media screen and (max-width: 720px) {
+    .container-porfolio{
+      display: contents;
+    }
+    }

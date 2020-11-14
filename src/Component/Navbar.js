@@ -31,11 +31,11 @@ function Navbar() {
                     </div>
                     <div>
                         <ul className={click ? 'nav-menu open' :'nav-menu'}>
-                            <li className="animate__animated animate__backInDown animate__delay-04s"><a href="#"><span>01.</span>About</a></li>
-                            <li className="animate__animated animate__backInDown animate__delay-06s"><a href="#"><span>02.</span>Experience</a></li>
-                            <li className="animate__animated animate__backInDown animate__delay-08s"><a href="#"><span>03.</span>Work</a></li>
-                            <li className="animate__animated animate__backInDown animate__delay-01s"><a href="#"><span>04.</span>Contact</a></li>
-                            <li className="animate__animated animate__backInDown animate__delay-012s"><a href="#"><b>Resume</b></a></li>
+                            <li onClick={closeMobileMenu} className="animate__animated animate__backInDown animate__delay-04s"><a href="#"><span>01.</span>About</a></li>
+                            <li onClick={closeMobileMenu} className="animate__animated animate__backInDown animate__delay-06s"><a href="#"><span>02.</span>Experience</a></li>
+                            <li onClick={closeMobileMenu} className="animate__animated animate__backInDown animate__delay-08s"><a href="#"><span>03.</span>Work</a></li>
+                            <li onClick={closeMobileMenu} className="animate__animated animate__backInDown animate__delay-01s"><a href="#"><span>04.</span>Contact</a></li>
+                            <li onClick={closeMobileMenu} className="animate__animated animate__backInDown animate__delay-012s"><a href="#"><b>Resume</b></a></li>
                         </ul>
                     </div>
                 </nav>

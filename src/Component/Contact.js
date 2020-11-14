@@ -1,10 +1,24 @@
-import React, { Component } from 'react'
+import React, { useEffect,useState } from 'react'
 import '../Component/contact.css'
 
 function Contant(){
+        
+    const [offset, setOffset] = useState(false);
+    const scroll = () =>{
+        if(window.pageYOffset > 4000){
+            setOffset(false)
+        }else{
+            setOffset(true)
+        }
+    };
+
+    useEffect(() => {
+        scroll()
+    }, []);
+    window.addEventListener('scroll', scroll)
     return(
         <>
-        <section className='contant'>
+        <section className={offset ?'contant ' :'contant animate__animated animate__zoomInUp'}>
         <div className="contant-main">
                     <p className="h-text">What’s Next?</p>
                 </div>

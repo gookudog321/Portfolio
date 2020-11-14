@@ -133,4 +133,8 @@ section{
   grid-template-columns: repeat(2,1fr);
   position: relative;
 }
-
+@media screen and (max-width: 720px) {
+  .pang{
+    padding: 0 50px;
+  }
+  }
