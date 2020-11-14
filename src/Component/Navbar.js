@@ -3,7 +3,7 @@ import './Navbar.css'
 function Navbar() {
     const [click , setClick] = useState(false);
     const [button, setButton]= useState(true)
-
+    const [open , setOpen]= useState(true);
     const handleClick = () =>setClick(!click);
     const closeMobileMenu = () =>setClick(false)
 
@@ -19,11 +19,22 @@ function Navbar() {
         showButton()
     }, []);
 
-    window.addEventListener('resize', showButton)
+    const scroll = () =>{
+        if(window.pageYOffset>0){
+            setOpen(false)
+        }else{
+            setOpen(true)
+        }
+    };
 
+    useEffect(() => {
+        scroll()
+    }, []);
+    window.addEventListener('resize', showButton)
+    window.addEventListener('scroll', scroll)
     return (
         <>
-          <header >
+          <header className={open ? '' :'open-n'}>
                 <nav data-wow-offset="10" data-wow-onAnimationIteration="2">
                     <div onClick={closeMobileMenu} className="logo"><a href="#">B</a></div>
                     <div onClick={handleClick} className="nav-btn">

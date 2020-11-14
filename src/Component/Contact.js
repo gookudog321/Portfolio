@@ -5,7 +5,7 @@ function Contant(){
         
     const [offset, setOffset] = useState(false);
     const scroll = () =>{
-        if(window.pageYOffset > 4000){
+        if(window.pageYOffset > 2829){
             setOffset(false)
         }else{
             setOffset(true)

@@ -6,7 +6,7 @@ import nopphon from '../image/nopphon.jpg'
 function About(){
     const [offset, setOffset] = useState(false);
     const scroll = () =>{
-        if(window.pageYOffset > 50){
+        if(window.pageYOffset > 100){
             setOffset(false)
         }else{
             setOffset(true)
