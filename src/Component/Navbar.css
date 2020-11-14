@@ -113,7 +113,7 @@ nav div:nth-child(2){
 @media screen and (max-width: 960px) {
 nav ul {
     padding-inline-start: 0;
-    margin-block-start: 2.5rem;
+    margin-block-start: 2rem;
 }
 .nav-menu{
     display: none;
@@ -139,6 +139,7 @@ nav div:nth-child(2) {
 }
 header {
     padding:  0 0px;
+    height: 70px;
 }
 nav ul li:nth-child(5){
     margin-bottom: 1rem;
