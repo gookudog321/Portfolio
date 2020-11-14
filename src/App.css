@@ -137,4 +137,7 @@ section{
   .pang{
     padding: 0 50px;
   }
+  .h-text{
+    font-size: 18px;
+  }
   }
