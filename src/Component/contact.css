@@ -1,0 +1,36 @@
+.contant{
+    max-width: 600px;
+    margin: 0px auto 100px;
+    text-align: center;
+}
+.contant-main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px !important;
+}
+.contant-main p {
+    font-size: 22px  !important;
+    color: var(--green) !important;
+}
+.contant h1{
+    color:var(--color-lightest) ;
+    font-size: 60px;
+}
+.contant p {
+    color: var(--slate);
+}
+.contant button{
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    background: bottom;
+    padding: 1.5rem 3rem;
+    margin-top: 2rem;
+    color: var(--green);
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    font-weight: 500;
+}
+.contant button:hover{
+    background-color: var(--green-hover);
+}

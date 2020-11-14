@@ -1,0 +1,50 @@
+.inner{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    color: var(--slate);
+    font-family: var(--font-san);
+}
+.inner-li{
+    color: var(--slate) !important;
+}
+.inner  ul{
+    margin-block-start: 0;
+}
+.inner p{
+    margin-left: 1.5rem;
+}
+.rl-2{
+    padding: 0 2rem;
+}
+.inner ion-icon{
+    font-size: 12px;
+    margin-right: 5px;
+    color: var(--green);
+}
+.inner  li div{
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    transition: ease-in 0.3s;
+    text-align: center;
+}
+
+.inner  li div:hover{
+    background-color: #172a45;
+    border-left: 0.5rem solid var(--green);
+    color: var(--green);
+}
+.active{
+    background-color: #172a45;
+    border-left: 0.5rem solid var(--green);
+}
+.active-b{
+    color: var(--green);
+}
+.active-no{
+    color: var(--slate);
+}
