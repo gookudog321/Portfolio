@@ -2,8 +2,8 @@ import React, {useEffect, useState } from 'react'
 import './about.css'
 import nopphon from '../image/nopphon.jpg'
   
-
 function About(){
+
     const [offset, setOffset] = useState(false);
     const scroll = () =>{
         if(window.pageYOffset > 50){
@@ -18,7 +18,7 @@ function About(){
     }, []);
     window.addEventListener('scroll', scroll)
         return (
-            <section  className={offset ?'mx ' :'mx animate__animated animate__zoomInUp'}>
+            <section id="about" className={offset ?'mx ' :'mx animate__animated animate__zoomInUp'}>
                 <div className="about-me">
                     <div>
                         <h2 className="h-text">About Me</h2>

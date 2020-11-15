@@ -38,7 +38,7 @@
     border-left: 0.5rem solid var(--green);
     color: var(--green);
 }
-.active{
+.active-w{
     background-color: #172a45;
     border-left: 0.5rem solid var(--green);
 }

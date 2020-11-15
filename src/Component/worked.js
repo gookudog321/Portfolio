@@ -93,18 +93,18 @@ function Worked () {
       
 
         return (
-            <section className={offset ?'ms ' :'ms animate__animated animate__zoomInUp'}>
+            <section id="experience" className={offset ?'ms ' :'ms animate__animated animate__zoomInUp'}>
                 <div>
         <h1 className="h-text">Where I’ve Worked</h1>
                 </div>
                 <div className="inner">
                     <ul className="inner-li"> 
 
-                        <li className={open ? "" :"active"}>
+                        <li className={open ? "" :"active-w"}>
                             <div className={open ? "active-no" :"active-b"}  onClick={Resume} >Working Experience</div>
                         </li>
 
-                        <li className={open ? "active" :""}>
+                        <li className={open ? "active-w" :""}>
                                 <div className={open ? "active-b" :"active-no"} onClick={Education}>Education</div>
                         </li>
                         

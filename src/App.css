@@ -1,4 +1,7 @@
 
+html {
+  scroll-behavior: smooth;
+}
 body{
   counter-reset: section;
     margin: 0px;

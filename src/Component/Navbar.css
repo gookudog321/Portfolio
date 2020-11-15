@@ -116,6 +116,9 @@ nav div:nth-child(2){
 .animate__delay-012s{
     animation-duration: 1.2s;
 }
+.animate__animated{
+    cursor: pointer !important;
+}
 @media screen and (max-width: 960px) {
 nav ul {
     padding-inline-start: 0;
@@ -133,6 +136,7 @@ nav ul {
 .nav-btn{
     opacity: 1;
 }
+
 nav div:nth-child(2) {
     display: flex;
     position: absolute;

@@ -1,9 +1,9 @@
 import React, {useState, useEffect}from 'react'
+import {Link} from 'react-scroll'
 import { debounce } from  './helpers';  
 import './Navbar.css'
 function Navbar() {
     const [click , setClick] = useState(false);
-    const [button, setButton]= useState(true)
     const [open , setOpen]= useState(true);
     const handleClick = () =>setClick(!click);
     const closeMobileMenu = () =>setClick(false)
@@ -32,9 +32,9 @@ function Navbar() {
     
 
     const [prevScrollPos, setPrevScrollPos] = useState(0); 
-  const [visible, setVisible] = useState(true);  
+    const [visible, setVisible] = useState(true);  
 
-  const handleScroll = debounce(() => {
+    const handleScroll = debounce(() => {
     const currentScrollPos = window.pageYOffset;
 
     setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
@@ -66,12 +66,12 @@ function Navbar() {
                         <ion-icon name={click ? 'close-outline' : 'menu-outline'}></ion-icon>
                     </div>
                     <div>
-                        <ul className={click ? 'nav-menu open' :'nav-menu'}>
-                            <li onClick={closeMobileMenu} className="animate__animated animate__backInDown animate__delay-04s"><a href="#"><span>01.</span>About</a></li>
-                            <li onClick={closeMobileMenu} className="animate__animated animate__backInDown animate__delay-06s"><a href="#"><span>02.</span>Experience</a></li>
-                            <li onClick={closeMobileMenu} className="animate__animated animate__backInDown animate__delay-08s"><a href="#"><span>03.</span>Work</a></li>
-                            <li onClick={closeMobileMenu} className="animate__animated animate__backInDown animate__delay-01s"><a href="#"><span>04.</span>Contact</a></li>
-                            <li onClick={closeMobileMenu} className="animate__animated animate__backInDown animate__delay-012s"><a href="#"><b>Resume</b></a></li>
+                        <ul  className={click ? 'nav-menu open' :'nav-menu'}>
+                            <li  className="animate__animated animate__backInDown animate__delay-04s"><Link onClick={closeMobileMenu}  to="about" spy={true} smooth={true}><span>01.</span>About</Link></li>
+                            <li  className="animate__animated animate__backInDown animate__delay-06s"><Link onClick={closeMobileMenu}  to="experience" spy={true} smooth={true}><span>02.</span>Experience</Link></li>
+                            <li  className="animate__animated animate__backInDown animate__delay-08s"><Link onClick={closeMobileMenu}  to="work" spy={true} smooth={true}><span>03.</span>Work</Link></li>
+                            <li  className="animate__animated animate__backInDown animate__delay-01s"><Link onClick={closeMobileMenu}  to="contact" spy={true} smooth={true}><span>04.</span>Contact</Link></li>
+                            <li  className="animate__animated animate__backInDown animate__delay-012s"><Link onClick={closeMobileMenu}  to="resume" spy={true} smooth={true}><b>Resume</b></Link></li>
                         </ul>
                     </div>
                 </nav>

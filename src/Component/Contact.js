@@ -18,7 +18,7 @@ function Contant(){
     window.addEventListener('scroll', scroll)
     return(
         <>
-        <section className={offset ?'contant ' :'contant animate__animated animate__zoomInUp'}>
+        <section id="contact" className={offset ?'contant ' :'contant animate__animated animate__zoomInUp'}>
         <div className="contant-main">
                     <p className="h-text">What’s Next?</p>
                 </div>
