@@ -8,15 +8,21 @@ header{
     align-items: center;
     font-family: var(--font-mono);
     position: sticky;
+    height: 70px;
     top: 0;
     z-index: 999;
 }
 .open-n{
     transition: ease-in-out 0.3s;
     box-shadow: 7px 7px 16px 0px var(--green);
+    top: 0;
 }
 .nav-btn{
     opacity: 0;
+}
+.hidden{
+    display: none !important;
+    top:-100;
 }
 .open{
     display: grid !important;

@@ -1,4 +1,5 @@
 import React, {useState, useEffect}from 'react'
+import { debounce } from  './helpers';  
 import './Navbar.css'
 function Navbar() {
     const [click , setClick] = useState(false);
@@ -29,6 +30,28 @@ function Navbar() {
 
     console.log(window.pageYOffset)
     
+
+    const [prevScrollPos, setPrevScrollPos] = useState(0); 
+  const [visible, setVisible] = useState(true);  
+
+  const handleScroll = debounce(() => {
+    const currentScrollPos = window.pageYOffset;
+
+    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
+
+    setPrevScrollPos(currentScrollPos);
+  }, 100);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+
+  }, [prevScrollPos, visible, handleScroll]);
+
+  const navbarStyles = {
+    transition: 'top 0.6s' 
+  }
     useEffect(() => {
         scroll()
     }, []);
@@ -36,7 +59,7 @@ function Navbar() {
     window.addEventListener('scroll', scroll)
     return (
         <>
-          <header className={open ? '' :'open-n'}>
+          <header style={{ ...navbarStyles, top: visible ? '0' : '-100px' }} className={open ? '' :'open-n'}>
                 <nav data-wow-offset="10" data-wow-onAnimationIteration="2">
                     <div onClick={closeMobileMenu} className="logo"><a href="#">B</a></div>
                     <div onClick={handleClick} className="nav-btn">
