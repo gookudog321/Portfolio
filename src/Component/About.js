@@ -22,10 +22,8 @@ function About(){
                 <div className="about-me">
                     <div>
                         <h2 className="h-text">About Me</h2>
-                        <p >Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
-                        <p>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
-                        <p>Shortly after graduating from <a className="a" href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the engineering team at <a className="a"  href="https://www.upstatement.com">Upstatement</a> where I work on a wide variety of interesting and meaningful projects on a daily basis.</p>
-                        <p>Here are a few technologies I've been working with recently:</p>
+                        <p>คนที่จะประสบผลสำเร็จได้เรื่อยๆ จะต้องมุ่งมั่นทำสิ่งที่จำเป็นต้องทำ ทำในเวลาที่เหมาะสม และให้ได้ผลลัพธ์อย่างที่มันควรจะเป็น ต้องทำงานทุกอย่างให้ได้ตามมาตรฐาน หลังจากงานสำเร็จก็ต้องรักษามาตรฐานนั้นไว้หรือปรับปรุงทำให้มันดียิ่งขึ้น อย่ามั่นใจมากเกินไปและอย่ายึดติดอยู่กับความสำเร็จเดิมๆ</p>
+                        <p>ความผิดพลาดเป็นเรื่องที่หลีกเลี่ยงไม่ได้ เพราะว่าเราต้องเสี่ยง ปัญหาไม่ได้อยู่ที่ความผิดพลาด แต่เราต้องวิเคราะห์มันและหาทางแก้ไข <b className="a">เราต้องแยกให้ออกว่าตัวเราไม่ใช่ความผิดพลาดที่เราทำ</b> แต่ Ego จะทำให้เรามองว่าตัวเราคือความผิดพลาดและจะทำให้เรามองเห็นแค่ความสำเร็จและความล้มเหลว</p>
                         <ul className="about-me-skill">
                             <li><ion-icon name="caret-forward-outline"></ion-icon>HTML5 & CSS3</li>
                             <li><ion-icon name="caret-forward-outline"></ion-icon>PHP</li>

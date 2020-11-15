@@ -28,8 +28,9 @@
 }
 .about-me p{
     color: var(--slate);
-    font-family: var(--font-san);
+    font-family: var(--font-thai);
     font-size: 16px;
+    letter-spacing:2px;
 }
 .main-poster{
     display: contents;
