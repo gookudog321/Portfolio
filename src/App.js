@@ -29,7 +29,7 @@ const defaultOptions = {
 const defaultOptions2 = {
   loop: true,
   autoplay: true,
-  animationData: successData.default,
+  animationData: loadingData.default,
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice"
   }
