@@ -1,6 +1,6 @@
 .inner{
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 0.3fr 1fr;
     color: var(--slate);
     font-family: var(--font-san);
 }

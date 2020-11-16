@@ -20,13 +20,23 @@ function Worked () {
                 Education: [
                     <>
                     {/* <h3>EDUCATION HISTORY</h3> */}
-                    <div>
-                        <span>2012-2015</span>
-                        <p>Rajabhat - Information Technology, University, Chiang Mai</p>
+                    <div className="line-1">
+                        <span className="m-05">2015-2020 <b className="a f-14"><a href="https://www.cmru.ac.th/" target="_blank">@ Bachelor Degrees</a></b></span>
+                        <ul className="font-t">
+                            <li><ion-icon name="school-outline"></ion-icon>มหาวิทยาลัยราชภัฏเชียงใหม่</li>
+                            <ul>
+                                <li>  <ion-icon name="caret-forward-outline"></ion-icon>สาขา เทคโนโลยีสารสนเทศ</li>
+                            </ul>
+                        </ul>
                     </div>
-                    <div>
-                        <span>2012-2015</span>
-                        <p>HANGDONGRATHUPATHUM - Art Chinese, High School, Chiang Mai</p>
+                    <div className="line-1">
+                        <span>2012-2015 <b className="a f-14"><a href="https://www.hangdong.ac.th/webnew/index.php" target="_blank">@ Senior High School</a></b></span>
+                        <ul>
+                            <li><ion-icon name="school-outline"></ion-icon>โรงเรียนหางดงรัฐราษฎร์อุปถัมภ์</li>
+                            <ul>
+                                <li>  <ion-icon name="caret-forward-outline"></ion-icon>สาย ศิลป์ภาษาจีน</li>
+                            </ul>
+                        </ul>
                     </div>
                         
                     </>
@@ -36,7 +46,7 @@ function Worked () {
                     <>
                         <div>
                             <span>2020 - NOW</span>
-                            <ul>
+                            <ul className="line-1">
                                 <li>
                                     <ion-icon name="caret-forward-outline"></ion-icon>
                                     Support ERP System for Company
@@ -61,7 +71,7 @@ function Worked () {
                         <div>
                             <span>2018-2019</span>
                             <p>ChiangMaiAquarium - Trainee IT Support Technician</p>
-                            <ul>
+                            <ul className="line-1">
                                 <li>
                                     <ion-icon name="caret-forward-outline"></ion-icon>
                                     Support User And company
@@ -95,7 +105,7 @@ function Worked () {
         return (
             <section id="experience" className={offset ?'ms ' :'ms animate__animated animate__zoomInUp'}>
                 <div>
-        <h1 className="h-text">Where I’ve Worked</h1>
+        <h1 className="h-text">Working Experience & Education</h1>
                 </div>
                 <div className="inner">
                     <ul className="inner-li"> 

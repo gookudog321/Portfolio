@@ -35,6 +35,16 @@ body{
   --hover: ease-in-out 0.3s;
   --green-hover:rgba(100,255,218,0.1);
 }
+.font-t{
+  font-family: var(--font-thai) !important;
+  font-size: 16px;
+}
+.f-14{
+  font-size: 14px;
+}
+.line-1{
+  line-height:1.8;
+}
 .social{
   display: flex;
   position: relative;

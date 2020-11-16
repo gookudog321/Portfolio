@@ -64,14 +64,14 @@ function App(){
            style={{
             width: 250,
             height: 150,
-            paddingTop: 250,
+            paddingTop: 200,
            }}  main/>
          ) : (
            <Lottie options={defaultOptions2}    
            style={{
             width: 250,
             height: 150,
-            paddingTop: 250,
+            paddingTop: 200,
            }} />
          )}
        </div>

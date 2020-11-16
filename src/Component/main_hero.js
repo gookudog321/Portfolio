@@ -6,22 +6,22 @@ export default class main_hero extends Component {
         return (
             <section className="main-hero">
                 <div className="animate__animated animate__backInLeft animate__delay-015s">
-                    Hello i'm Nopphon
+                    Hello I'm Ball
                 </div>
 
                 <div className="animate__animated animate__backInLeft animate__delay-020s">
-                    <h2 className="big-heading ">Brittany Chiang.</h2>
+                    <h2 className="big-heading ">Nopphon Hwalingta.</h2>
                 </div>
                 <div className="animate__animated animate__backInLeft animate__delay-025s">
                     <h3 className="big-heading">I build things for the web.</h3>
                 </div>
 
                 <div className="animate__animated animate__backInLeft animate__delay-030s">
-                    <p>I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</p>
+                    <p className="font-t">สวัสดีคับผมทำงานเกี่ยวกับ Implement & Tester อยู่แถวกรุงเทพ รามอินทรา ชื่นชอบในเขียนเว็บไซต์ และการเขียนโค้ด</p>
                 </div>
 
                 <div className="animate__animated animate__backInLeft animate__delay-035s">
-                    <a href="mailto:noppon321111@gmail.com">Get In Touch</a>
+                    <a href="mailto:noppon321111@gmail.com">Contact me</a>
                 </div>
             </section>
         )
