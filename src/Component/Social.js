@@ -15,7 +15,7 @@ export default class Social extends Component {
                     </ul>
                 </div>
                 <di className="social-g animate__animated animate__backInRight animate__delay-040s">
-                    <p><a href="https://mail.google.com/" target="_blank">Nopphon321@gmail.com</a></p>
+                    <p><a href="mailto:noppon321111@gmail.com" >Nopphon321111@gmail.com</a></p>
                     <p className="social-line2"></p>
                 </di>
             </>

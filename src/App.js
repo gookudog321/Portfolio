@@ -60,9 +60,19 @@ function App(){
        <FadeIn>
        <div style={{ display: "flex" }}>
          {!loading ? (
-           <Lottie options={defaultOptions} height={500} width={500} />
+           <Lottie options={defaultOptions} 
+           style={{
+            width: 250,
+            height: 150,
+            paddingTop: 250,
+           }}  main/>
          ) : (
-           <Lottie options={defaultOptions2} height={500} width={500} />
+           <Lottie options={defaultOptions2}    
+           style={{
+            width: 250,
+            height: 150,
+            paddingTop: 250,
+           }} />
          )}
        </div>
      </FadeIn>

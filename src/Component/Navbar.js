@@ -1,6 +1,7 @@
 import React, {useState, useEffect}from 'react'
 import {Link} from 'react-scroll'
 import { debounce } from  './helpers';  
+import pdf from '../PDF/the_oxford_3000_2.pdf'
 import './Navbar.css'
 function Navbar() {
     const [click , setClick] = useState(false);
@@ -71,7 +72,7 @@ function Navbar() {
                             <li  className="animate__animated animate__backInDown animate__delay-06s"><Link onClick={closeMobileMenu}  to="experience" spy={true} smooth={true}><span>02.</span>Experience</Link></li>
                             <li  className="animate__animated animate__backInDown animate__delay-08s"><Link onClick={closeMobileMenu}  to="work" spy={true} smooth={true}><span>03.</span>Work</Link></li>
                             <li  className="animate__animated animate__backInDown animate__delay-01s"><Link onClick={closeMobileMenu}  to="contact" spy={true} smooth={true}><span>04.</span>Contact</Link></li>
-                            <li  className="animate__animated animate__backInDown animate__delay-012s"><Link onClick={closeMobileMenu}  to="resume" spy={true} smooth={true}><b>Resume</b></Link></li>
+                            <li  className="animate__animated animate__backInDown animate__delay-012s"><b><a href={pdf} target="_blank" rel="noopener noreferrer" download>Resume</a></b></li>
                         </ul>
                     </div>
                 </nav>

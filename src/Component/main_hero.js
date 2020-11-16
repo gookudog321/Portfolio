@@ -21,7 +21,7 @@ export default class main_hero extends Component {
                 </div>
 
                 <div className="animate__animated animate__backInLeft animate__delay-035s">
-                    <a href="#">Get In Touch</a>
+                    <a href="mailto:noppon321111@gmail.com">Get In Touch</a>
                 </div>
             </section>
         )
