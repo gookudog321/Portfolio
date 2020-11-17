@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1cb98a40.chunk.css",
-    "main.js": "/Portfolio/static/js/main.24f10116.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.24f10116.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.f9fdc68a.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f9fdc68a.js.map",
-    "static/js/2.7d2cf7e1.chunk.js": "/Portfolio/static/js/2.7d2cf7e1.chunk.js",
-    "static/js/2.7d2cf7e1.chunk.js.map": "/Portfolio/static/js/2.7d2cf7e1.chunk.js.map",
-    "static/js/3.30cfc79d.chunk.js": "/Portfolio/static/js/3.30cfc79d.chunk.js",
-    "static/js/3.30cfc79d.chunk.js.map": "/Portfolio/static/js/3.30cfc79d.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.3711e8a6.chunk.css",
+    "main.js": "/Portfolio/static/js/main.9b6a8f72.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.9b6a8f72.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e446367a.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e446367a.js.map",
+    "static/js/2.a1a8b483.chunk.js": "/Portfolio/static/js/2.a1a8b483.chunk.js",
+    "static/js/2.a1a8b483.chunk.js.map": "/Portfolio/static/js/2.a1a8b483.chunk.js.map",
+    "static/js/3.4f49ff94.chunk.js": "/Portfolio/static/js/3.4f49ff94.chunk.js",
+    "static/js/3.4f49ff94.chunk.js.map": "/Portfolio/static/js/3.4f49ff94.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.1cb98a40.chunk.css.map": "/Portfolio/static/css/main.1cb98a40.chunk.css.map",
-    "static/js/2.7d2cf7e1.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.7d2cf7e1.chunk.js.LICENSE.txt",
+    "static/css/main.3711e8a6.chunk.css.map": "/Portfolio/static/css/main.3711e8a6.chunk.css.map",
+    "static/js/2.a1a8b483.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a1a8b483.chunk.js.LICENSE.txt",
+    "static/media/Project-1.374d999e.jpg": "/Portfolio/static/media/Project-1.374d999e.jpg",
+    "static/media/Project-2.7c95a8fd.jpg": "/Portfolio/static/media/Project-2.7c95a8fd.jpg",
+    "static/media/Project-3.74acd1ed.jpg": "/Portfolio/static/media/Project-3.74acd1ed.jpg",
+    "static/media/Project-4.6840ba72.jpg": "/Portfolio/static/media/Project-4.6840ba72.jpg",
     "static/media/nopphon.907fa225.jpg": "/Portfolio/static/media/nopphon.907fa225.jpg",
     "static/media/the_oxford_3000_2.c32493e0.pdf": "/Portfolio/static/media/the_oxford_3000_2.c32493e0.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9fdc68a.js",
-    "static/js/2.7d2cf7e1.chunk.js",
-    "static/css/main.1cb98a40.chunk.css",
-    "static/js/main.24f10116.chunk.js"
+    "static/js/runtime-main.e446367a.js",
+    "static/js/2.a1a8b483.chunk.js",
+    "static/css/main.3711e8a6.chunk.css",
+    "static/js/main.9b6a8f72.chunk.js"
   ]
 }
