@@ -49,7 +49,7 @@ function About(){
                         </ul>
                     </div>
                     <div className="main-poster">
-                        <img className="poster" src="https://picsum.photos/200/200" /> 
+                        <img className="poster" src={nopphon} /> 
                     </div>
                 </div>
             </section>
