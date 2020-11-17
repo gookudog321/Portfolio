@@ -16,6 +16,21 @@ function Worked () {
     }, []);
     window.addEventListener('scroll', scroll)
 
+
+    const [openWord , setWord] = useState(true);
+    const show = () =>{
+        if(window.innerWidth<450){
+            setWord(false)
+        }else{
+            setWord(true)
+        }
+    };
+
+useEffect (() => {
+    show()
+}, []);
+window.addEventListener('resize', show)
+
     const state = {
                 Education: [
                     <>
@@ -49,41 +64,20 @@ function Worked () {
                             <ul className="line-1">
                                 <li>
                                     <ion-icon name="caret-forward-outline"></ion-icon>
-                                    Support ERP System for Company
-                                </li>
-
-                                <li>
-                                    <ion-icon name="caret-forward-outline"></ion-icon>
-                                </li>
-                                <li>
-                                    <ion-icon name="caret-forward-outline"></ion-icon>
-                                </li>
-
-                                <li>
-                                    <ion-icon name="caret-forward-outline"></ion-icon>
-                                </li>
-
-                                <li>
-                                    <ion-icon name="caret-forward-outline"></ion-icon>
+                                    Implement & Tester ERP System
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <span>2018-2019</span>
-                            <p>ChiangMaiAquarium - Trainee IT Support Technician</p>
+                            <span>2018-2019 <b className="a">@เชียงใหม่ ซู อควาเรียม</b></span>
                             <ul className="line-1">
-                                <li>
-                                    <ion-icon name="caret-forward-outline"></ion-icon>
-                                    Support User And company
-                                </li>
-                                <li>
-                                    <ion-icon name="caret-forward-outline"></ion-icon>
-                                    Customer Relationship Management System (PHP)
-                                </li>
-                                <li>
-                                    <ion-icon name="caret-forward-outline"></ion-icon>
-                                    Website ChiangMaiAquarium
-                                </li>
+                                <li><ion-icon name="person-outline"></ion-icon>นักศึกษาฝึกงาน</li>
+                                <ul>
+                                    <li> <ion-icon name="caret-forward-outline"></ion-icon>
+                                    Customer Relationship Management System (PHP)</li>
+                                    <li><ion-icon name="caret-forward-outline"></ion-icon>
+                                    Website ChiangMaiAquarium</li>
+                                </ul>
                             </ul>
                         </div>
                     </>
@@ -105,7 +99,7 @@ function Worked () {
         return (
             <section id="experience" className={offset ?'ms ' :'ms animate__animated animate__zoomInUp'}>
                 <div>
-        <h1 className="h-text">Working Experience & Education</h1>
+        <h1 className="h-text">Working Experience{openWord? '':<br />} & Education</h1>
                 </div>
                 <div className="inner">
                     <ul className="inner-li"> 

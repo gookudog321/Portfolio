@@ -17,7 +17,7 @@ export default class main_hero extends Component {
                 </div>
 
                 <div className="animate__animated animate__backInLeft animate__delay-030s">
-                    <p className="font-t">สวัสดีคับผมทำงานเกี่ยวกับ Implement & Tester อยู่แถวกรุงเทพ รามอินทรา ชื่นชอบในเขียนเว็บไซต์ และการเขียนโค้ด</p>
+                    <p className="font-t">สวัสดีคับผมทำงานเกี่ยวกับ Implement & Tester อยู่แถวกรุงเทพ รามอินทรา ชื่นชอบการขียนโค้ด ,ดีดกีตาร์ลงๆ ขึ้นๆ ลงขึ้น</p>
                 </div>
 
                 <div className="animate__animated animate__backInLeft animate__delay-035s">
