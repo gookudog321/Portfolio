@@ -1,7 +1,7 @@
 import React, {useState, useEffect}from 'react'
 import {Link} from 'react-scroll'
 import { debounce } from  './helpers';  
-import pdf from '../PDF/the_oxford_3000_2.pdf'
+import pdf from '../PDF/Nopphon Hwalingta.pdf'
 import './Navbar.css'
 function Navbar() {
     const [click , setClick] = useState(false);
