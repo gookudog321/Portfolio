@@ -60,7 +60,7 @@ window.addEventListener('resize', show)
                 Work: [
                     <>
                         <div>
-                            <span>2020 - NOW</span>
+                            <span>2020 - Present</span>
                             <ul className="line-1">
                                 <li>
                                     <ion-icon name="caret-forward-outline"></ion-icon>

@@ -62,7 +62,7 @@ function Navbar() {
         <>
           <header style={{ ...navbarStyles, top: visible ? '0' : '-100px' }} className={open ? '' :'open-n'}>
                 <nav data-wow-offset="10" data-wow-onAnimationIteration="2">
-                    <div onClick={closeMobileMenu} className="logo"><a href="#">B</a></div>
+                    <div onClick={closeMobileMenu} className="logo"><Link onClick={closeMobileMenu}  to="main" spy={true} smooth={true}><a href="#">B</a></Link></div>
                     <div onClick={handleClick} className="nav-btn">
                         <ion-icon name={click ? 'close-outline' : 'menu-outline'}></ion-icon>
                     </div>

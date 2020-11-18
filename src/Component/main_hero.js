@@ -4,7 +4,7 @@ import './main_hero.css'
 export default class main_hero extends Component {
     render() {
         return (
-            <section className="main-hero">
+            <section id="main" className="main-hero">
                 <div className="animate__animated animate__backInLeft animate__delay-015s">
                     Hello I'm Ball
                 </div>

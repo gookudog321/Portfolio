@@ -31,7 +31,7 @@ function Portfolio(){
               project: "Graduation Project",
               title : " Online Hostel Reservation System ",
               content: "ชิ้นงานโปรเจ็คจบ ระบบสามารถแบ่งออกเป็นสองส่วนหลัก 1.ระบบสมาชิก(หน้าบ้าน) 2.แอดมิน(หลังบ้าน) ",
-              tag:["PHC","HTML5","CSS3","Java Script",""],
+              tag:["PHC","HTML5 & CSS3","Java Script",""],
               link:[
                 <a className="a" target="_blank" href="https://www.comdept.cmru.ac.th/58223189/index.php">User</a>, 
                 <a className="a" target="_blank" href="https://www.comdept.cmru.ac.th/58223189/admin_login.php">Admin</a>],
@@ -45,11 +45,10 @@ function Portfolio(){
           fields:{
               id: "2",
               image: project2,
-              project:"Featured Project",
-              title : "Tile",
-              content: "A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.",
-              tag:["Next.js","chart.js","Git hup API"],
-              link:["Link1", "link2"],
+              project:"Workshop",
+              title : "React ",
+              content: "เว็บแอปค้นหาห้องพักตามราคาที่คุณค้นหา ตั้งแต่ราคาต่ำสุด ถึงแพงสุด นอกจากนี้คุณยังสมารถเลือกรูปแบบห้องพัก Single, Double,Family เว็บแอพนี้สร้างเพื่อเรียนรู้การใช้งาน React Framework  ",
+              tag:["HTML5 & CSS3","React","React API"],
               link:[
                 <a className="a" target="_blank" href="https://github.com/nopphon3211/work_shop_tree"><ion-icon name="logo-github"></ion-icon></a>, 
                 <a className="a" target="_blank" href="https://nopphon3211.github.io/work_shop_tree/"><ion-icon name="open-outline"></ion-icon></a>
@@ -64,11 +63,10 @@ function Portfolio(){
         fields:{
             id: "3",
             image: project3,
-            project:"Featured Project",
-            title : "Tile",
-            content: "A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.",
+            project:"Workshop",
+            title : "React",
+            content: "เว็บแอปนี้สร้างเพื่อการเรียนรู้ React Framework  ",
             tag:["Next.js","chart.js","Git hup API"],
-            link:["Link1", "link2"],
             link:[
                 <a className="a" target="_blank" href="https://github.com/nopphon3211/work_shop_two"><ion-icon name="logo-github"></ion-icon></a>, 
                 <a className="a" target="_blank" href="https://nopphon3211.github.io/work_shop_two/"><ion-icon name="open-outline"></ion-icon></a>
@@ -83,11 +81,10 @@ function Portfolio(){
         fields:{
             id: "4",
             image: project4,
-            project:"Featured Project",
-            title : "Tile",
-            content: "A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.",
-            tag:["Next.js","chart.js","Git hup API"],
-            link:[<a>sdsd</a>, "link2"],
+            project:"Workshop",
+            title : "Web Responsive",
+            content: "เว็บนี้สร้างเพื่อการพัฒนาตนเองในด้าน CSS และ Java Script เพื่อรอรับ web responsive ",
+            tag:["HTML5 & CSS3","Java Script"],
             link:[
                 <a className="a" target="_blank" href="https://github.com/nopphon3211/My-project-"><ion-icon name="logo-github"></ion-icon></a>, 
                 <a className="a" target="_blank" href="https://nopphon3211.github.io/My-project-/"><ion-icon name="open-outline"></ion-icon></a>
@@ -116,7 +113,7 @@ function Portfolio(){
             <p>{datas.fields.project}</p>
             <h1>{datas.fields.title}</h1>
             <div>
-            <p>{datas.fields.content}</p>
+            <p className="font-t line-1 f-16">{datas.fields.content}</p>
             </div>
             <ul>
                 {list = datas.fields.tag.map((lists) => 
@@ -146,45 +143,3 @@ function Portfolio(){
     )
 }
 export default  Portfolio
-// export default class Portfolio extends Component {
-//     render() {
-     
-//       const list='';
-//       const doubled = data.map((datas) => 
-//       <>
-//                     <div className="projecct-image">
-//                         <img src={datas.fields.image} />
-//                         <div class="middle">
-//                         </div>
-//                     </div>
-//             <div class="content-p">
-//                 <p>{datas.fields.project}</p>
-//                 <h1>{datas.fields.title}</h1>
-//                 <div>
-//                 <p>{datas.fields.content}</p>
-//                 </div>
-//                 <ul>
-//                     { this.list = datas.fields.tag.map((lists) => 
-//                     <li>{lists}</li>) }
-//                 </ul>
-//                 <ul>
-//                         { this.links = datas.fields.link.map((links) => 
-//                         <li>{links}</li>) }
-//                 </ul>
-//             </div>
-//       </>
-//       );
-//         return (
-//             <>
-//                 <section>
-//                 <div>
-//                     <h1 className="h-text">Where I’ve Worked</h1>
-//                 </div>
-//                 <div class="container-porfolio">
-//                     {doubled}
-//                 </div>
-//                 </section>
-//             </>
-//         )
-//     }
-// }
