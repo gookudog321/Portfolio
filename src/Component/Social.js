@@ -7,7 +7,7 @@ export default class Social extends Component {
             <>
                 <div className="social-m animate__animated animate__backInLeft animate__delay-040s">
                     <ul className="social-line">
-                        <li><a target="_blank" href="https://github.com/gookudog321"><ion-icon name="logo-github"></ion-icon></a></li>
+                        <li><a target="_blank" href="https://github.com/nopphon3211"><ion-icon name="logo-github"></ion-icon></a></li>
                         <li><a target="_blank"  href="https://www.facebook.com/profile.php?id=100004003782563"><ion-icon name="logo-facebook"></ion-icon></a></li>
                         <li><a target="_blank"  href="https://www.instagram.com/0o_ball_o0/"><ion-icon name="logo-instagram"></ion-icon></a></li>
                         <li><a target="_blank"  href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>

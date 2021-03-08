@@ -84,7 +84,7 @@ function App(){
         <Navbar />
         <main className="pang">
         <Hero />
-       <About />
+        <About />
        {/* <Test /> */}
         <Worked />
         <Portfolio />

@@ -60,16 +60,16 @@ window.addEventListener('resize', show)
                 Work: [
                     <>
                         <div>
-                            <span>2020 - Present</span>
+                            <span>2020 - Present <b className="a f-14"><a href="https://poseintelligence.com/" target="_blank">@Poseintelligence</a></b></span>
                             <ul className="line-1">
                                 <li>
                                     <ion-icon name="caret-forward-outline"></ion-icon>
-                                    Implement & Tester ERP System
+                                    Implement & Tester ERP System 
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <span>2018-2019 <b className="a">@เชียงใหม่ ซู อควาเรียม</b></span>
+                            <span>2018-2019 <b className="a f-14"><a href="https://www.chiangmaiaquarium.com/" target="_blank">@เชียงใหม่ ซู อควาเรียม</a></b></span>
                             <ul className="line-1">
                                 <li><ion-icon name="person-outline"></ion-icon>นักศึกษาฝึกงาน</li>
                                 <ul>

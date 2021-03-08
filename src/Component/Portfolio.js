@@ -31,7 +31,7 @@ function Portfolio(){
               project: "Graduation Project",
               title : " Online Hostel Reservation System ",
               content: "ชิ้นงานโปรเจ็คจบ ระบบสามารถแบ่งออกเป็นสองส่วนหลัก 1.ระบบสมาชิก(หน้าบ้าน) 2.แอดมิน(หลังบ้าน) ",
-              tag:["PHC","HTML5 & CSS3","Java Script",""],
+              tag:["PHP","HTML5 & CSS3","Java Script",""],
               link:[
                 <a className="a" target="_blank" href="https://www.comdept.cmru.ac.th/58223189/index.php">User</a>, 
                 <a className="a" target="_blank" href="https://www.comdept.cmru.ac.th/58223189/admin_login.php">Admin</a>],
@@ -66,7 +66,7 @@ function Portfolio(){
             project:"Workshop",
             title : "React",
             content: "เว็บแอปนี้สร้างเพื่อการเรียนรู้ React Framework  ",
-            tag:["Next.js","chart.js","Git hup API"],
+            tag:["HTML5 & CSS3","React","Java Script"],
             link:[
                 <a className="a" target="_blank" href="https://github.com/nopphon3211/work_shop_two"><ion-icon name="logo-github"></ion-icon></a>, 
                 <a className="a" target="_blank" href="https://nopphon3211.github.io/work_shop_two/"><ion-icon name="open-outline"></ion-icon></a>
