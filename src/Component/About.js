@@ -12,6 +12,9 @@ function About(){
             id : 'PHP'
         },
         {
+            id : 'SQL'
+        },
+        {
             id: 'Java Script'
         },
         {
