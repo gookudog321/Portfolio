@@ -66,6 +66,30 @@ window.addEventListener('resize', show)
                                     <ion-icon name="caret-forward-outline"></ion-icon>
                                     Implement & Tester ERP System 
                                 </li>
+                                <ul className="line-1">
+
+                                <li>
+                                    <ion-icon name="build-outline"></ion-icon>
+                                    ระบบคลังสินค้า 
+                                </li>
+                                <li>
+                                    <ion-icon name="build-outline"></ion-icon>
+                                    ระบบจัดซื้อ 
+                                </li>
+                                <li>
+                                    <ion-icon name="build-outline"></ion-icon>
+                                    ระบบการผลิต
+                                </li>
+                                <li>
+                                    <ion-icon name="build-outline"></ion-icon>
+                                    ระบบ PDM 
+                                </li>
+                                <li>
+                                    <ion-icon name="build-outline"></ion-icon>
+                                    ระบบขาย 
+                                </li>
+
+                            </ul>
                             </ul>
                         </div>
                         <div>
