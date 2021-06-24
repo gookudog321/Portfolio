@@ -131,7 +131,7 @@ function Portfolio(){
   );
     return(
         <>
-                <section id="work" className={offset ?' ' :' animate__animated animate__zoomInUp'}>
+                <section id="work" className={offset ?' ' :''}>
                 <div>
                     <h1 className="h-text">Where I’ve Worked</h1>
                 </div>

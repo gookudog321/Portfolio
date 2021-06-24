@@ -97,7 +97,7 @@ window.addEventListener('resize', show)
       
 
         return (
-            <section id="experience" className={offset ?'ms ' :'ms animate__animated animate__zoomInUp'}>
+            <section id="experience" className={offset ?'ms ' :'ms '}>
                 <div>
         <h1 className="h-text">Working Experience{openWord? '':<br />} & Education</h1>
                 </div>

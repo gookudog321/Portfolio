@@ -41,7 +41,7 @@ function About(){
     }, []);
     window.addEventListener('scroll', scroll)
         return (
-            <section id="about" className={offset ?'mx ' :'mx animate__animated animate__zoomInUp'}>
+            <section id="about" className={offset ?'mx ' :'mx '}>
                 <div className="about-me">
                     <div>
                         <h2 className="h-text">About Me</h2>
